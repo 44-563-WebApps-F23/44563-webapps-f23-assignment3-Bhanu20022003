@@ -71,12 +71,13 @@
         go to stackoverflow <a href="https: //stackoverflow.com/questions/6735414/php-data-uri-to-file">
 
 
-            code:
+        <pre>
             function data_uri($file, $mime) {
             $contents=file_get_contents($file);
             $base64=base64_encode($contents);
             echo "data:$mime;base64,$base64";
             }
+        </pre>
 
     </p>
 
